@@ -1,0 +1,26 @@
+﻿<Window x:Class="PracticaDockPanel.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PracticaDockPanel"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <DockPanel>
+        <Button DockPanel.Dock="Left">Botón A</Button>
+        <Button DockPanel.Dock="Left">Botón F</Button>
+        <Button DockPanel.Dock="Right">Botón C</Button>
+        <Button DockPanel.Dock="Top">Botón B</Button>
+        
+       
+        <Button DockPanel.Dock="Bottom">Botón D</Button>
+        
+        <StackPanel>
+            <TextBlock Text="Esto es un texto"/>
+            <TextBox/>
+            <Text="Esto es otro texto"/>
+            <Button DockPanel.Dock="Bottom">Botón E</Button>
+        </StackPanel>
+
+    </DockPanel>
+</Window>
