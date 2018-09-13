@@ -18,7 +18,7 @@
         <StackPanel>
             <TextBlock Text="Esto es un texto"/>
             <TextBox/>
-            <Text="Esto es otro texto"/>
+            <TextBlock Text="Esto es otro texto"/>
             <Button DockPanel.Dock="Bottom">Botón E</Button>
         </StackPanel>
 
